@@ -339,3 +339,160 @@ img {
     transform: translateY(-6px);
 
 }
+
+
+
+.compare-container {
+width: 90%;
+max-width: 1000px;
+margin: 50px auto;
+text-align: center;
+font-family: Arial, sans-serif;
+}
+
+
+.heading {
+font-size: 40px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+
+.sub-heading {
+font-size: 18px;
+color: #555;
+margin-bottom: 40px;
+}
+
+
+.compare-box {
+display: flex;
+justify-content: space-between;
+gap: 20px;
+}
+
+
+.item {
+width: 48%;
+padding: 20px;
+border-radius: 10px;
+border: 1px solid #ddd;
+text-align: left;
+transition: .3s;
+}
+
+
+.item:hover {
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+.item h2 {
+font-size: 28px;
+margin-bottom: 15px;
+}
+
+
+.item ul li {
+margin-bottom: 10px;
+font-size: 16px;
+}
+
+
+.cds {
+background: #f1f8ff;
+}
+
+
+.dvds {
+background: #fff7e6;
+}
+
+
+.find-us {
+    padding: 40px 0;
+    background: #f8fafc;
+}
+
+.find-us h4 {
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: #0a3d62;
+}
+
+.find-us .map-box {
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.find-us .map-box:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 25px rgba(0,0,0,0.20);
+}
+
+.find-us iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+}
+.compare-section {
+    padding: 50px 0;
+    background: #fafafa;
+}
+
+.compare-section .title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #0a3d62;
+}
+
+.compare-box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.compare-item {
+    width: 300px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+.compare-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.compare-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.compare-item h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.compare-item ul {
+    padding: 0;
+    list-style: none;
+}
+
+.compare-item ul li {
+    padding: 6px 0;
+    border-bottom: 1px solid #ecf0f1;
+    font-size: 15px;
+}

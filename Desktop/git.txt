@@ -1,0 +1,171 @@
+1) Select locations with postal codes less than or equal to '50000'.
+2) Get all jobs with a minimum salary greater than 50000.
+3) Retrieve departments where the manager ID is not null.
+4) Find employees with a commission percentage equal to 0.10.
+5) Select employees hired after '2022-01-01'.
+6) Retrieve employees with salaries between 40000 and 60000.
+7) Retrieve regions with names containing 'America'.
+8) Find countries with region IDs between 3 and 6.
+9) Select locations in cities starting with 'New'.
+10) Get jobs with titles not containing 'Manager'.
+11) Retrieve departments where the manager ID is either 101 or 102.
+12) Find employees in departments with IDs not between 100 and 190.
+13) Select employees hired between '2022-01-01' and '2022-06-30'.
+14) Retrieve job history records for employees with IDs in (101, 109, 113).
+15) Find employees with first names starting with 'J' and last names starting with 'D'.
+16) Get employees with salaries greater than 5000 and commission percentage less than 0.15.
+17) Retrieve countries with names ending with 'nd'.
+18) Find locations with street addresses containing 'Street'.
+19) Select jobs with titles starting with 'Senior'.
+20) Retrieve departments with names containing 'HR'.
+21) Find countries with region IDs in (1, 2, 3).
+22) Retrieve locations in countries with IDs in ('US', 'UK', 'CA').
+23) Select jobs with IDs in ('IT_PROG', 'SA_REP', 'HR_REP').
+24) Get departments with IDs in (100, 200, 300).
+25) Retrieve employees in departments with names in ('IT', 'Finance').
+26) Find regions with IDs between 3 and 6.
+27) Retrieve countries with region IDs between 1 and 3.
+28) Select locations with postal codes between '1000' and '2000'.
+29) Get jobs with salaries between 4000 and 6000.
+30) Retrieve departments with IDs between 100 and 200.
+31) Retrieve employee details along with their department names.
+32) Find countries along with their region names.
+33) Select locations with their corresponding country names.
+34) Get job details along with their department names.
+35) Retrieve employee details along with their job titles.
+36) Find employees along with their managers' details.
+37) Retrieve employees along with their department and location details.
+38) Get employees along with their country and region details.
+39) Retrieve employees along with their job titles and department names.
+40) Find employees along with their location details and country names.
+41) Retrieve job history records along with employee details.
+42) Find employees with their corresponding job history.
+43) Select employees along with their job history and department names.
+44) Get employees with their job history, department, and location details.
+45) Retrieve employees along with their job history and country names.
+46) Find job history records with employee and department details.
+47) Retrieve job history records along with employee and job details.
+48) Get job history records with employee, job, and department details.
+49) Retrieve job history records along with employee, job, and location details.
+50) Find job history records with employee, job, and country details.
+51) Retrieve regions along with their countries and locations.
+52) Find countries along with their regions and locations.
+53) Retrieve locations along with their countries and regions.
+54) Find departments along with their employees and locations.
+55) Retrieve employees along with their departments, locations, and countries.
+56) Find employees along with their managers, departments, and locations.
+57) Retrieve employees along with their job titles, departments, and locations.
+58) Find employees along with their job titles, departments, and managers.
+59) Retrieve employees along with their job titles, departments, managers, and locations.
+60) Retrieve the names of countries in Region 1.
+61) Find the departments located in cities starting with 'N'.
+62) Select employees who work in departments managed by employees with a commission percentage greater than 0.15.
+63) Get the job titles of employees who are managers.
+64) Retrieve the postal codes of locations where the country's region name is 'Asia'.
+65) Select the names of departments that have employees with commission percentages less than the average commission percentage across all departments.
+66) Retrieve the job titles of employees whose salary is higher than the average salary of employees in the same department.
+67) Find the IDs of employees who have not been assigned to any department.
+68) Get the names of employees who have held more than one job position (multiple entries in the job history table).
+69) Retrieve the count of employees in each department.
+70) Find the total salary for each job title.
+71) Get the average commission percentage for each department.
+72) Retrieve the maximum salary in each country.
+Write a query in
+SQL to display those employees who contain a letter z to their first name and
+also display their last name, department, city, and state province.
+
+
+73) Write a query in SQL to
+display the job title, department name, full name (first and last name) of the employee,
+and starting date for all the jobs that started on or after 1st January 1993
+and ending with on or before 31 August 1997.
+
+
+74) Write a query in SQL to
+display the country name, city, and number of those departments where at least
+2 employees are working.
+
+
+ 75) Write a query in SQL to
+display full name (first and last name), job title, and starting and ending
+date of last jobs for those employees with worked without a commission
+percentage.
+
+
+76) Write a query in SQL to
+display the full name (first and last name) of the employee with ID and name of
+the country presently where (s)he is working.
+
+
+77) Write a query to display
+the name (first name and last name), salary, and department ID for those
+employees who earn such an amount of salary which is the smallest salary of any
+of the departments.
+
+
+78) Write a query to display
+all the information for those employees whose id is any id who earn the third
+highest salary.
+
+
+79) Write a query to display
+the employee number, name (first name and last name), and salary for all
+employees who earn more than the average salary and who work in a department
+with any employee with a J in their name.
+
+
+80)  Display the employee name
+(first name and last name), employee ID, and job title for all employees whose
+department location is Toronto.
+
+
+81) Write a query to display
+the department ID and the total salary for those departments that contain at
+least one employee.
+
+
+82) Write a query to display
+the employee id, name (first name and last name), salary, and the Salary Status
+column with the title HIGH and LOW respectively for those employees whose
+salary is more than and less than the average salary of all employees.
+
+
+83) Write a query that will
+identify all employees who work in departments located in the United Kingdom.
+
+
+84) Write a query that is
+looking for the names of all employees whose salary is greater than 50% of
+their department’s total salary.
+
+
+85) Write a query to get the
+details of employees who are managers.
+
+
+86) Write a query to display
+the employee ID, name (first name and last name), salary, department name, and
+city for all the employees who get the salary as the salary earned by the
+employee which is maximum within the joining person January 1st, 2002 and
+December 31st, 2003.
+
+
+87) Write a query in SQL to display
+the first and last name, salary, and department ID for those employees who earn
+less than the average salary and also work at the department where the employee
+Laura is working as a first name holder.
+
+
+88) Write a query in SQL to
+display the details of those departments whose max salary is 7000 or above for
+those employees who have already done one or more jobs.89) Find the minimum postal code length for each region.
+90) Retrieve employee details ordered by their hire date in descending order.
+91) Find employees ordered by their salary in ascending order.
+92) Get countries ordered by the number of locations they have in descending order.
+93) Retrieve departments with more than five employees.
+94) Find job titles with an average salary greater than 15000.
+95) Get countries with more than three locations.
+96) Retrieve the length of each employee's first name.
+97) Find the uppercase version of each country name.
+98) Find the first three characters of each job title.
+99) Get the last four characters of each postal code.
